@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+.table header {
+  display: flex;
+}
+
+.table header h2 {
+  flex-basis: 33.33%;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-row div {
+  flex-basis: 33.33%;
+}
+
+.table-row div img {
+  max-height: 50px;
+}
+
+.pagination span {
+  display: inline-block;
+  color: blue;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.pagination span:hover {
+  text-decoration: underline;
+}
